@@ -2,6 +2,9 @@ name: Bulk Delete Artifacts
 on:
   workflow_dispatch:
 
+permissions:
+  actions: write
+
 jobs:
   clean:
     runs-on: ubuntu-latest
